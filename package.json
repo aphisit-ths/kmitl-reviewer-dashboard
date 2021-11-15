@@ -1,0 +1,63 @@
+{
+  "name": "dashboard-v6-nextjs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Enoch Ndika"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salvia-kit/dashboard-v6-nextjs.git"
+  },
+  "keywords": [
+    "ui",
+    "react",
+    "components",
+    "dashboard",
+    "admin",
+    "tailwindcss",
+    "next",
+    "Next.js",
+    "layout"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.17",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@mui/material": "^5.1.0",
+    "@reach/portal": "^0.16.0",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-http": "^1.5.17",
+    "cookie": "^0.4.1",
+    "graphql": "^16.0.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "js-cookie": "^3.0.1",
+    "material-table": "^1.69.3",
+    "next": "^11.1.2",
+    "next-with-apollo": "^5.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.19.5",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.5",
+    "eslint": "^7.28.0",
+    "eslint-config-next": "^11.1.2",
+    "husky": "^7.0.2",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.15"
+  }
+}
