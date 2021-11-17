@@ -6,7 +6,7 @@ import fetch from "isomorphic-unfetch";
 import withApollo from "next-with-apollo";
 import cookie from "cookie"
 
-const uri = "http://localhost:4444/graphql";
+const uri = "https://backend-gql-kmitlreviewer.herokuapp.com/graphql";
 
 const httpLink = createHttpLink({ uri, fetch ,credentials: 'same-origin'});
 //Create Headers

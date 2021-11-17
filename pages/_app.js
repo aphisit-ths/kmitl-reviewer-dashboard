@@ -56,7 +56,7 @@ MyApp.getInitialProps = async ({ ctx ,router }) => {
     `,
   };
   
-  const response = await fetch("http://localhost:4444/graphql", { 
+  const response = await fetch("https://backend-gql-kmitlreviewer.herokuapp.com/graphql", { 
     //Gql Post เสมอ
     method: "post",
     headers: {

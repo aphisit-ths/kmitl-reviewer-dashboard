@@ -28,7 +28,7 @@ const data = [
   {
     title: 'Comments',
     icon: <AnnotationIcon className="w-6 h-6" />,
-    link: '/admin/subjectreviews',
+    link: '/admin/comments',
   },
   {
     title: 'Setting',
